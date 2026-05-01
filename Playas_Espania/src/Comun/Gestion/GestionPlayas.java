@@ -8,7 +8,7 @@ import Comun.Logica.Playa_grande;
 import java.util.Scanner;
 
 public class GestionPlayas {
-
+//Comentario por Ion 2k25
     private Playa[] playas;
 
 

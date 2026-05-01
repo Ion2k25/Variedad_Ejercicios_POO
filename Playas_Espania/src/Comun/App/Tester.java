@@ -12,7 +12,6 @@ public class Tester {
 
 
         int opcion;
-
         do {
             System.out.println("\n---------MENU---------");
             System.out.println("1. Crear una playa");
