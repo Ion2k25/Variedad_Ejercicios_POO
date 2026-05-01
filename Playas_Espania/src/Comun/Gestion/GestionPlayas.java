@@ -8,7 +8,6 @@ import Comun.Logica.Playa_grande;
 import java.util.Scanner;
 
 public class GestionPlayas {
-//Comentario por Ion 2k25
     private Playa[] playas;
 
 
@@ -61,7 +60,6 @@ public class GestionPlayas {
     //Metodo de crear playa-----------------
     public Playa crearPlaya() {
         Scanner sc = new Scanner(System.in);
-
 
         //Elegir tipo de playa
         System.out.println("Elige tipo de playa: \n1 = Playa Grande\n2 = Cala");
