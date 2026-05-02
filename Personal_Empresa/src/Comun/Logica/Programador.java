@@ -1,6 +1,6 @@
 package Comun.Logica;
 
-public class Programador {
+public class Programador extends Trabajador {
 
     private String lenguaje;
 

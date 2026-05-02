@@ -1,0 +1,45 @@
+
+Entornos de Desarollo: diagrama de clase de la siguiente aplicacion.
+
+Programacion_ Se pide el desaroollo de la una aplicacion que tengo en cuenta el siguiente escenario. Para su realizacion tener en cuentra los aspectos fundamenteales de la POO
+(encapsulacion, reutilizacion de código, herencia polimorfismo...)
+
+Aplicacion que petmita la gestion de personal de una empresa. Se quiere gestionar tanto los programadores como los jedfes de proyecto.
+
+Todo trabajador, posee un nombre y apellidos, fecha de incorporacion a la empresa, departamente, sueldo corespondiende en un dái. No existirán instanicias dde trabajador. De la fecha se almacenará
+el día, el mes y el año, como números, en totra clase, se abtendrá en formato imprimible como dd//mm//aa.
+
+De los programadores se necesita saber en que lenguajes saben programacr.
+
+Los jefes de proyecto cobrarán incentivos, además del sueldo base, en función de las personas asignadas a su cargo.
+
+Todo trabajador debe poseer un método que devolverá el salarioReal. Se calculará para los programadores como el sueldo multiplicado por el nímero de diias que recibirá el méetodo
+ como argumento de entrada. Para el jefe de proyecto el cálculo será el mismo que para el programador más un incremento del 0.02% por cada persona a su cargo.
+
+ El conjunto de trabajadores será almacenado en una estructura de datos dentro de la clase GEstionPerosnal que permita la siguietnes funcionalidades:
+
+ 1. Tres construcotres que permita inicializar la restrucurea de datos que alamcernará los trabajadores. Se crearán tres, el de por defecto, otro que reciba como argumento
+ el número de trabajadores a almacenar, y por último el que permita proporcionar a la clase GEstionPersonas, un conjunto de trabjaadores ya creado previamente.
+En el caso que los trabjadores no se reciban como argumento de entrada, el primer tercio del array serán programadores creados aleatoriamente, el segundo tercio serán jefes de proyecto
+creados mediamte un metodo auxiliar por entrada salida (preguntando datos al usuario)
+
+2. Dar de alta un trabjadores, que será proporcionado como argumento de entrada, informadno de si se ha podido llevar a cabo mediante la devolucion de un booleando.
+
+3. Dar de baja un trabajador, cuyo año de incorporacion sea anterior al proporc ionado como argumento de entrada, informadno de si se ha podido llevar a cabo
+
+4.Mostrar en con sola la informacion d elos trabjadores de un determinado departamento introducido como argumento de entrada
+
+5. Obtener un listado de programadores coyo salario real al día esté entre dos valores introducidos por el usuario. El método mostrará en pantalla, tanto la informacion general como la específica
+
+6. Modificar el número de trabajadores que lleva a cargo el jefe de proyecto cuyo nombre y apellidos ha sido introducido como argumento de entrada.
+
+7. Añadir un len guaje de programacion, recibido como argumento de entrada, a un  programador identificado por el nombre y apellidos recibidos tambien como argumento de entrada.
+
+8. Mostrar los trabjadores ordenados conforme al año de incorporacion
+
+9. Calcular el coste totla de una semana de trabajo de tres programadores y un jefe de proyecto cuyos nombres y apellidos fueron introducidos por consola dentro del método.
+
+En la aplicacion existirá una clase Tester desde laque se utilizarán los métodos(menú) de la clase GestionPersonal, haciendo las llamadas en la que se proporcion ará los argumentos
+de entrada necesarios para testear la aplicacion.
+
+

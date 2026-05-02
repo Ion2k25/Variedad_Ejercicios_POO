@@ -9,6 +9,7 @@ public abstract class Trabajador {
     private String apellidos;
     Fecha fechaIncor;
     private Double sueldoDia;
+    private String departamento;
 
 
 
