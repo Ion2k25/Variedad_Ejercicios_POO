@@ -1,14 +1,15 @@
 package Comun.Gestion;
 
+import Comun.Logica.Trabajador;
+
 public class GestionPersonal {
 
 
 
 //Constructor
 
-    public GestionPersonal() {
+    //Por defecto
 
-    }
 
 
 //Getters
@@ -20,6 +21,9 @@ public class GestionPersonal {
 
 
 //Metodos
+
+
+
 
 
 }

@@ -1,5 +1,7 @@
 package Comun.Logica;
 
+import java.util.Scanner;
+
 public class Programador extends Trabajador {
 
     private String lenguaje;
@@ -18,8 +20,12 @@ public class Programador extends Trabajador {
 
 //Metodos
 
+    @Override
+    public double salarioReal(int dias){
+        Scanner sc= new Scanner(System.in);
 
-    public Programador() {
-        super();
+        System.out.println("Introduce cuantos días has trabajado");
+        dias =sc.nextInt();
+        return sueldoDia* dias;
     }
 }

@@ -8,13 +8,23 @@ public abstract class Trabajador {
     private String nombre;
     private String apellidos;
     Fecha fechaIncor;
-    private Double sueldoDia;
+    double sueldoDia;
     private String departamento;
 
 
 
 //Constructor
 
+    public Trabajador(String nombre, String apellidos, Fecha fechaIncor, Double sueldoDia, String departamento) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.fechaIncor = fechaIncor;
+        this.sueldoDia = sueldoDia;
+        this.departamento = departamento;
+    }
+
+    protected Trabajador() {
+    }
 
 
 //Getters
@@ -25,14 +35,6 @@ public abstract class Trabajador {
 
 
 //Metodos
-    public Double salarioReal(Double sueldoDia){
-        Scanner sc = new Scanner(System.in);
+  public abstract double salarioReal(int dias);  //Es un metodo abstracto, porque este metodo solo lo va a usar las HIJAS
 
-        System.out.println("Introduce cuantos dias has trabajado");
-        int dias =sc.nextInt();
-        sc.nextLine();
-
-        return dias*sueldoDia;
-
-    }
 }

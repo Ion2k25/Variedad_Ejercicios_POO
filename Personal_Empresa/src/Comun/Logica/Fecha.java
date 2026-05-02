@@ -6,4 +6,19 @@ public class Fecha {
     private String mes;
     private int anio;
 
+
+//Constructor
+
+
+//Getters
+
+
+//Setters
+
+
+
+//Metodos
+
+
+
 }
